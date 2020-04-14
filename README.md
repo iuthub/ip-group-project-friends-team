@@ -3,7 +3,7 @@
 
 # Team members
 1.Nasrulloev Rustam
-2.Husnidin
+2.Khusainov Khusniddin
 3.Obidov Eldorjon
 4.Qurbonov Tokhirjon
 5.Akhmedov Dilkhayot

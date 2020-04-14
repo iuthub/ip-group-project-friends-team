@@ -1,6 +1,13 @@
 # Internet Programming: Group Project Assignment
 
-Find `ip_group_project.pdf` file in this folder, and refer to all the instructions given there. 
 
-You have to submit your project into this repository before 10.05.2019 (midnight).
+# Team members
+1.Nasrulloev Rustam
+2.Husnidin
+3.Obidov Eldorjon
+4.Qurbonov Tokhirjon
+5.Akhmedov Dilkhayot
+6.Sardorjon
 
+# Topic of our project
+Discuss the given topics and then choose something.

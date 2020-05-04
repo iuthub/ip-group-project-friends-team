@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+	animation: animate 20s ease-in-out infinite;
+}
+@keyframes animate{
+	0%,100%{
+		background-image: url(1.jpg);
+	}
+	25%{
+		background-image: url(2.jpg);
+	}
+	50%{
+		background-image: url(3.jpg);
+	}
+	75%{
+		background-image: url(4.jpg);
+	}
+	100%{
+		background-image: url(5.jpg);
+	}
+}
+ul{
+	float: right;
+	list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+h1 {
+ font-family:"Lucida Console", Monaco, monospace;
+ font-size: 50px; 
+}
+
+.team-section{
+	overflow: :hidden;
+	text-align: center;
+	background:#34495e;
+	padding: 60px;
+}
+.team-section h1{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 40px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 465px;
+	height: 2px;
+	background: white;
+	margin-bottom: 40px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.ps a:hover>img{
+	filter: none;
+}
+.names h4{
+	position: absolute;
+	top: 195%;
+	left: 8.6%;
+	color:white;
+}
+.names1 h4{
+	position: absolute;
+	top: 195%;
+	left: 23%;
+	color: white;
+}
+.names2 h4{
+	position: absolute;
+	top: 195%;
+	left: 37%;
+	color: white;
+}
+.names3 h4{
+	position: absolute;
+	top: 195%;
+	left: 52%;
+	color:white;
+}
+.names4 h4{
+	position: absolute;
+	top: 195%;
+	left: 66.5%;
+	color: white;
+}
+.names5 h4{
+	position: absolute;
+	top: 195%;
+	left: 82.5%;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

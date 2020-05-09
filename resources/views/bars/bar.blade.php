@@ -28,7 +28,7 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
 <body>
     <div class="header">
         <div class="container">
-            <a href="#" class="navbar-brand scroll-top">Restaurants & Bars & Banquets</a>
+            <a href="/bar" class="navbar-brand scroll-top">Restaurants & Bars & Banquets</a>
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
                     <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -42,10 +42,18 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="/">Hotel</a></li>
-                        <li><a href="/bar">Home</a></li>
+                        <li><a href="/bar">Restaurant</a></li>
                         <li><a href="/menu">Our Menus</a></li>
                         <li><a href="/blog">Blog Entries</a></li>
-                        <li><a href="/index">Admin Table</a></li>
+                        @if (Route::has('login'))
+                                @auth
+                                    <li><a href="/index">Admin Table</a></li>
+                                @else
+                                    <li><a href="{{ route('login') }}">Login</a></li>
+
+                                @endauth
+                        @endif
+                        
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->

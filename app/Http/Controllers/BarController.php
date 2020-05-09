@@ -24,7 +24,7 @@ class BarController extends Controller
 
     public function contact()
     {
-    	return view('bars.contact');
+    	return view('contact');
     }
 
     public function index()

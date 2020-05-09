@@ -45,7 +45,6 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                         <li><a href="/bar">Home</a></li>
                         <li><a href="/menu">Our Menus</a></li>
                         <li><a href="/blog">Blog Entries</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
                         <li><a href="/index">Admin Table</a></li>
                     </ul>
                 </div>

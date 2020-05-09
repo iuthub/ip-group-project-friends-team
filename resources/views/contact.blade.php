@@ -24,7 +24,7 @@
    <img src="{{ asset('pictures/Ligo3.png') }} ">
    </div>
      <ul>
-       <li class="active"><a href="#">HOME</a></li>
+       <li class="active"><a href="/">HOME</a></li>
        <li><a href="#">BOOKING ROOMS</a></li>
        <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
        <li><a href="#">SERVICES</a></li>

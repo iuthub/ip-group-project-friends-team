@@ -27,3 +27,5 @@ Route::get('/contact', 'BarController@contact');
 
 Route::get('/index', 'BarController@index')->name('bar_index');
 Route::post('/store', 'BarController@store')->name('bar_store');
+
+Route::get('/service', 'BarController@service');

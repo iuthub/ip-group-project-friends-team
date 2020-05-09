@@ -3,6 +3,7 @@
 <head>
 	<title>Landing Page</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }} ">
+ 
    <style>
       @keyframes animate{
          0%,100%{
@@ -14,7 +15,7 @@
       }
    </style>
 </head>
-   <body>
+  <body>
      <header>
   	      <div class="logo">
 		      <img src="{{ asset('pictures/Ligo3.png') }} ">

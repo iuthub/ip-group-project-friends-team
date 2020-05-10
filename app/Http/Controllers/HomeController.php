@@ -29,4 +29,19 @@ class HomeController extends Controller
     public function contact(){
         return view('contact');
     }
+
+    public function book()
+    {
+        return view('booking.book');
+    }
+
+    public function book1()
+    {
+        return view('booking.book1');
+    }
+
+    public function book2()
+    {
+        return view('booking.book2');
+    }
 }

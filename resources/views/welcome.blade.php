@@ -24,12 +24,25 @@
     </head>
     <body>
         <header>
+        <div class="flex-center position-ref full-height">
+          @if (Route::has('login'))
+              <div class="top-right links">
+                  @auth
+                      <a href="{{ url('/home') }}">Home</a>
+                  @else
+                      <a href="{{ route('login') }}">Login</a>
+
+                  @endauth
+              </div>
+          @endif
+        </div>
+
            <div class="logo">
            <img src="{{ asset('pictures/Ligo3.png') }} ">
            </div>
              <ul>
                <li class="active"><a href="/">HOME</a></li>
-               <li><a href="#">BOOKING ROOMS</a></li>
+               <li><a href="/book">BOOKING ROOMS</a></li>
                <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
                <li><a href="#">SERVICES</a></li>
                <li class="dropdown">
@@ -43,17 +56,6 @@
              </ul>
          </header>
 
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
 
-                    @endauth
-                </div>
-            @endif
-        </div>
     </body>
 </html>

@@ -50,7 +50,7 @@ class BarController extends Controller
     {
  		$day = $request->input('day');
  		$hour = $request->input('hour');
- 		$name = $request->input('name');       
+ 		$name = $request->input('name');
  		$tel_number = $request->input('phone');
  		$people = $request->input('persons');
 
@@ -64,4 +64,9 @@ class BarController extends Controller
 
         return redirect()->route('bar_index');
     }
+    public function service()
+    {
+    	return view('service');
+    }
+
 }

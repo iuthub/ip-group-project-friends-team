@@ -44,12 +44,12 @@
                <li class="active"><a href="/">HOME</a></li>
                <li><a href="/book">BOOKING ROOMS</a></li>
                <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
-               <li><a href="#">SERVICES</a></li>
+               <li><a href="/service">SERVICES</a></li>
                <li class="dropdown">
                  <a href="javascript:void(0)" class="dropbtn">ABOUT & GALLARY</a>
                    <div class="dropdown-content">
                        <a href="#">PHOTOS</a>
-                       <a href="#">VIDEOS</a>      
+                       <a href="#">VIDEOS</a>
                    </div>
                </li>
                <li><a href="/contact">CONTACT US</a></li>

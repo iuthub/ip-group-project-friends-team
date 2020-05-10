@@ -42,7 +42,8 @@
            <li><a href="#">CONTACT US</a></li>
          </ul>
      </header>
-<h1 class="display p-5">Services</h1>
+<h1 class="display p-5">Our services</h1>
+
 <div class="container">
     <div class="row">
       <div class="col-md-4 p-3">
@@ -51,7 +52,7 @@
           <div class="card-body">
             <h5 class="card-title">Fitness</h5>
             <p class="card-text">Keep yourself in tonus</p>
-            <a href= "#" class="btn btn-primary">Go somewhere</a>
+
           </div>
         </div>
       </div>
@@ -61,52 +62,53 @@
           <div class="card-body">
             <h5 class="card-title">Parking</h5>
             <p class="card-text">Suitable and safe places for your cars.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+
           </div>
         </div>
       </div>
     <div class="col-md-4 p-3">
       <div class="card">
-        <img src="check-in.jpg" class="card-img-top" alt=""  height="300">
+        <img src="{{ asset('pictures/check-in.jpg')}}" class="card-img-top" alt=""  height="300">
         <div class="card-body">
           <h5 class="card-title">Check-in and check-out</h5>
           <p class="card-text">Check-in and check-out services are open 24 hours</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
         </div>
       </div>
     </div>
     <div class="col-md-4 p-3">
       <div class="card">
-        <img src="concierge.jpg" class="card-img-top" alt="..."  height="300">
+        <img src="{{ asset('pictures/concierge.jpg')}}" class="card-img-top" alt="..."  height="300">
         <div class="card-body">
           <h5 class="card-title">Concierge services</h5>
           <p class="card-text">The best concierge services for you.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
         </div>
       </div>
     </div>
     <div class="col-md-4 p-3">
       <div class="card">
-        <img src= "spa.jpg" class="card-img-top" alt="..."  height="300">
+        <img src= "{{ asset('pictures/spa.jpg')}}" class="card-img-top" alt="..."  height="300">
         <div class="card-body">
           <h5 class="card-title">Spa and massage services</h5>
           <p class="card-text">Our hotel focuses on maximum relaxation for their guests, providing luxury features like hot tubs, thermal pools, and professional massage services.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
         </div>
       </div>
     </div>
     <div class="col-md-4 p-3">
       <div class="card">
-        <img src="business.jpg" class="card-img-top" alt="..."  height="300">
+        <img src="{{ asset('pictures/business.jpg')}}" class="card-img-top" alt="..."  height="300">
         <div class="card-body">
           <h5 class="card-title">Business services</h5>
           <p class="card-text">Great place for you to work.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
         </div>
       </div>
     </div>
    </div>
    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

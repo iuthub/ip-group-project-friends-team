@@ -44,4 +44,8 @@ class HomeController extends Controller
     {
         return view('booking.book2');
     }
+
+    public function about(){
+        return view('about.about');
+    }
 }

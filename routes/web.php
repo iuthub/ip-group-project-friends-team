@@ -35,3 +35,5 @@ Route::get('/book', 'HomeController@book');
 Route::get('/book1', 'HomeController@book1');
 Route::get('/book2', 'HomeController@book2');
 
+Route::get('/about', 'HomeController@about');
+

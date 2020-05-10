@@ -203,12 +203,12 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <input name="name" type="name" class="form-control" id="name" placeholder="Full name" pattern="[a-zA-Z]+" required>
+                                        <input name="name" type="name" class="form-control" id="name" placeholder="Full name" pattern="[a-zA-Z]+ [a-zA-Z]+" required>
                                     </fieldset> 
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="91-777-77-77" pattern="[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}"  required>
+                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="91 777 77 77" pattern="[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}"  required>
                                     </fieldset>
                                 </div>
                                 <div class="col-md-6">

@@ -3,7 +3,7 @@
 <head>
 	<title>Landing Page</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }} ">
- 
+
    <style>
       @keyframes animate{
          0%,100%{
@@ -35,3 +35,4 @@
 	            <li><a href="#">CONTACT US</a></li>
             </ul>
          </header>
+         

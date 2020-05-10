@@ -42,11 +42,18 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="/">Hotel</a></li>
-                        <li><a href="/bar">Home</a></li>
+                        <li><a href="/bar">Restaurant</a></li>
                         <li><a href="/menu">Our Menus</a></li>
                         <li><a href="/blog">Blog Entries</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
-                        <li><a href="/index">Admin Table</a></li>
+                        @if (Route::has('login'))
+                                @auth
+                                    <li><a href="/index">Admin Table</a></li>
+                                @else
+                                    <li><a href="{{ route('login') }}">Login</a></li>
+
+                                @endauth
+                        @endif
+                        
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
@@ -63,7 +70,7 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
             <div class="row">
                 <div class="col-md-12">
                     <h1>Our Menus</h1>
-                    <p>Curabitur at dolor sed felis lacinia ultricies sit amet vel sem. Vestibulum diam leo, sodales tempor lectus sed, varius gravida mi.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quaerat consectetur doloremque aut possimus, recusandae quidem velit. Doloremque consectetur accusamus alias voluptates blanditiis velit, voluptatum ipsam ducimus dolor? Mollitia, reprehenderit!</p>
                 </div>
             </div>
         </div>
@@ -88,30 +95,27 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/breakfast_item.jpg" alt="">
-                                            <div class="price">$3.50</div>
                                             <div class="text-content">
-                                                <h4>Kale Chips Art Party</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Egg meat and bread</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum praesentium deleniti aperiam. Veritatis sapiente placeat, amet sunt quasi maxime vitae ex, ullam reiciendis quis quod dolorum molestiae, sit tempore?...</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/lunch_item.jpg" alt="">
-                                            <div class="price">$7.25</div>
                                             <div class="text-content">
-                                                <h4>Drink Vinegar Prism</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Meat best fried</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iste expedita tempore voluptate quos animi fugiat consequatur vero ullam sit, labore odio non explicabo sed, aspernatur laudantium delectus est culpa?..</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/dinner_item.jpg" alt="">
-                                            <div class="price">$11.50</div>
                                             <div class="text-content">
-                                                <h4>Taiyaki Gastro Tousled</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Top Pizza</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita laborum incidunt, nostrum dolorum delectus, iure repellendus distinctio tempora mollitia voluptatum, officiis vitae, illo dolores quis recusandae maxime quas fugiat. Perferendis...</p>
                                             </div>
                                         </div>
                                     </div>
@@ -138,30 +142,27 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/lunch_item.jpg" alt="">
-                                            <div class="price">$6.50</div>
                                             <div class="text-content">
-                                                <h4>Mumble Ditch Corn</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Meat best fried</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio neque qui dolorem sit, velit dolor eligendi inventore, voluptatum accusantium rerum suscipit quos ipsa hic placeat eveniet voluptas explicabo expedita?..</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/breakfast_item.jpg" alt="">
-                                            <div class="price">$11.75</div>
                                             <div class="text-content">
-                                                <h4>Wayfare Lomo Core</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Egg meat and bread</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates neque dicta, aspernatur harum perferendis! Debitis et alias odit, ullam non, quisquam ipsam est placeat ratione repellat, provident necessitatibus, quibusdam doloribus!..</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/dinner_item.jpg" alt="">
-                                            <div class="price">$16.50</div>
                                             <div class="text-content">
-                                                <h4>Taiyaki Gastro Tousled</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Top Pizza</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus a est cumque, fuga hic ullam. Iste nulla harum sequi dolorum quis error, facilis doloribus illo et, delectus consequatur provident quidem...</p>
                                             </div>
                                         </div>
                                     </div>
@@ -196,30 +197,27 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/dinner_item.jpg" alt="">
-                                            <div class="price">$8.25</div>
                                             <div class="text-content">
-                                                <h4>Meal Apples Almonds</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Top Pizza</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ab aperiam commodi natus ipsam deserunt assumenda id labore consectetur nisi, accusamus. Quia saepe laudantium dolorum possimus at! Aliquam, repudiandae, nostrum...</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/lunch_item.jpg" alt="">
-                                            <div class="price">$12.50</div>
                                             <div class="text-content">
-                                                <h4>Ditch Corn Art</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Meat best fried</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium fuga dignissimos culpa. Error doloremque molestiae saepe ipsam aliquam atque quisquam mollitia omnis tempora expedita numquam nostrum totam, odio unde dolore!..</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="item col-md-12">
                                         <div class="food-item">
                                             <img src="img/breakfast_item.jpg" alt="">
-                                            <div class="price">$16.00</div>
                                             <div class="text-content">
-                                                <h4>Kale Chips Art Party</h4>
-                                                <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean ditcher meal...</p>
+                                                <h4>Egg meat and bread</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corrupti repellendus harum inventore dolorum reprehenderit porro veniam ut amet. Quam impedit libero ullam enim quo fugit tenetur, quisquam! Asperiores, perferendis...</p>
                                             </div>
                                         </div>
                                     </div>
@@ -282,12 +280,12 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <input name="name" type="name" class="form-control" id="name" placeholder="Full name" required>
+                                        <input name="name" type="name" class="form-control" id="name" placeholder="Full name" pattern="[a-zA-Z]+" required>
                                     </fieldset> 
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone number" required>
+                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone number" pattern="[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}" required>
                                     </fieldset>
                                 </div>
                                 <div class="col-md-6">

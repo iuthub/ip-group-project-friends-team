@@ -1,0 +1,26 @@
+body {
+  background-color: #34495e;
+  line-height: 1.5;
+  =font-size * 1.5=20px * 1.5=line-height: 30px;
+}
+
+.images {
+  width: 700px;
+  height: 500px;
+}
+
+.asd {
+  color: white;
+}
+
+.sdf {
+  color: black;
+}
+
+.M {
+  color: white;
+}
+
+p, li {
+  color: white;
+}

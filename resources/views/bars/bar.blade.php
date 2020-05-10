@@ -28,7 +28,7 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
 <body>
     <div class="header">
         <div class="container">
-            <a href="#" class="navbar-brand scroll-top">Restaurants & Bars & Banquets</a>
+            <a href="/bar" class="navbar-brand scroll-top">Restaurants & Bars & Banquets</a>
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
                     <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -42,11 +42,18 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="/">Hotel</a></li>
-                        <li><a href="/bar">Home</a></li>
+                        <li><a href="/bar">Restaurant</a></li>
                         <li><a href="/menu">Our Menus</a></li>
                         <li><a href="/blog">Blog Entries</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
-                        <li><a href="/index">Admin Table</a></li>
+                        @if (Route::has('login'))
+                                @auth
+                                    <li><a href="/index">Admin Table</a></li>
+                                @else
+                                    <li><a href="{{ route('login') }}">Login</a></li>
+
+                                @endauth
+                        @endif
+                        
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
@@ -62,9 +69,8 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h4>Here you can find delecious foods</h4>
-                    <h2>Asian Restaurant</h2>
-                    <p>Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a nisl non, tempor interdum nisl.</p>
+                    <h4 style="color:black">Here you can find delecious foods</h4>
+                    <h2 style="color:black">Asian Restaurant</h2>
                     <div class="primary-button">
                         <a href="#" class="scroll-link" data-id="book-table">Order Right Now</a>
                     </div>
@@ -90,7 +96,7 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                             <span>You can call us on:</span>
                             <h6>+ 7777 777 7777</h6>
                         </div>
-                        <span>or</span>
+                        
                         <div class="primary-white-button">
                             <a href="#" class="scroll-link" data-id="book-table">Order Now</a>
                         </div>
@@ -197,12 +203,12 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <input name="name" type="name" class="form-control" id="name" placeholder="Full name" required>
+                                        <input name="name" type="name" class="form-control" id="name" placeholder="Full name" pattern="[a-zA-Z]+" required>
                                     </fieldset> 
                                 </div>
                                 <div class="col-md-6">
                                     <fieldset>
-                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone number" required>
+                                        <input name="phone" type="phone" class="form-control" id="phone" placeholder="91-777-77-77" pattern="[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}"  required>
                                     </fieldset>
                                 </div>
                                 <div class="col-md-6">
@@ -245,7 +251,6 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                     <div class="food-item">
                         <h2>Breakfast</h2>
                         <img src="img/breakfast_item.jpg" alt="">
-                        <div class="price">$4.50</div>
                         <div class="text-content">
                             <h4>Kale Chips Art Party</h4>
                             <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
@@ -256,7 +261,6 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                     <div class="food-item">
                         <h2>Lunch</h2>
                         <img src="img/lunch_item.jpg" alt="">
-                        <div class="price">$7.50</div>
                         <div class="text-content">
                             <h4>Taiyaki Gastro Tousled</h4>
                             <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
@@ -267,7 +271,6 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                     <div class="food-item">
                         <h2>Dinner</h2>
                         <img src="img/dinner_item.jpg" alt="">
-                        <div class="price">$12.50</div>
                         <div class="text-content">
                             <h4>Batch Squid Jean Shorts</h4>
                             <p>Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
@@ -293,11 +296,11 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div class="col-md-6">
                     <div class="blog-post">
                         <img src="img/blog_post_01.jpg" alt="">
-                        <div class="date">26 Oct 2017</div>
+                        <div class="date">09 May 2020</div>
                         <div class="right-content">
-                            <h4>Stumptown Tofu Schlitz</h4>
-                            <span>Branding / Admin</span>
-                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <h4>Palov</h4>
+                            <span>Top / Chef</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, corporis, voluptatem. Quo, dolorem? Id harum velit itaque magnam dicta mollitia iusto ex, eveniet odit perferendis, ipsum rerum consectetur! Earum, non...</p>
                             <div class="text-button">
                                 <a href="#">Continue Reading</a>
                             </div>
@@ -307,11 +310,11 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div class="col-md-6">
                     <div class="blog-post">
                         <img src="img/blog_post_02.jpg" alt="">
-                        <div class="date">21 Oct 2017</div>
+                        <div class="date">07 May 2020</div>
                         <div class="right-content">
-                            <h4>Succulents Hashtag Folk</h4>
-                            <span>Branding / Admin</span>
-                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <h4>Friday Parties</h4>
+                            <span>Chill / Dj Husi</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim error voluptates delectus vitae nesciunt ab at fugiat quaerat cupiditate incidunt. Quas, ut natus! Iure dolore unde et libero, voluptates illum!...</p>
                             <div class="text-button">
                                 <a href="#">Continue Reading</a>
                             </div>
@@ -321,11 +324,11 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div class="col-md-6">
                     <div class="blog-post">
                         <img src="img/blog_post_03.jpg" alt="">
-                        <div class="date">11 Oct 2017</div>
+                        <div class="date">05 May 2020</div>
                         <div class="right-content">
-                            <h4>Knaus Sriracha Pinterest</h4>
-                            <span>Dessert / Chef</span>
-                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <h4>Design</h4>
+                            <span>Best / Designer</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ab excepturi animi repellat, suscipit eos dolor itaque, temporibus incidunt expedita provident aperiam pariatur, deserunt ipsa veritatis minima accusantium magni? Illo?...</p>
                             <div class="text-button">
                                 <a href="#">Continue Reading</a>
                             </div>
@@ -335,11 +338,11 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
                 <div class="col-md-6">
                     <div class="blog-post">
                         <img src="img/blog_post_04.jpg" alt="">
-                        <div class="date">03 Oct 2017</div>
+                        <div class="date">01 May 2020</div>
                         <div class="right-content">
-                            <h4>Crucifix Selvage Coat</h4>
-                            <span>Plate / Chef</span>
-                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <h4>Music</h4>
+                            <span>Top / Musicians</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quam deleniti vitae molestiae, fuga qui dolorum. Mollitia consequuntur incidunt in. Nesciunt, reiciendis, pariatur. Beatae minus nemo, fugit dicta reiciendis nam....</p>
                             <div class="text-button">
                                 <a href="#">Continue Reading</a>
                             </div>
@@ -349,34 +352,6 @@ http://www.templatemo.com/tm-507-Restaurants & Bars & Banquets
             </div>
         </div>
     </section>
-
-
-
-<!--     <section class="sign-up">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="heading">
-                        <h2>Signup for our newsletters</h2>
-                    </div>
-                </div>
-            </div>
-            <form id="contact" action="" method="get">
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-3">
-                        <fieldset>
-                            <input name="email" type="text" class="form-control" id="email" placeholder="Enter your email here..." required>
-                        </fieldset>
-                    </div>
-                    <div class="col-md-2">
-                        <fieldset>
-                            <button type="submit" id="form-submit" class="btn">Send Message</button>
-                        </fieldset>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </section> -->
 
 
 

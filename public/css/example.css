@@ -1,0 +1,114 @@
+/*body {
+  background-image: url("https://www.smartertravel.com/uploads/2017/03/tip-hotel-housekeeping-shutterstock-1400x500.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  margin: 0;
+}*/
+
+/*.table {
+  background: url("https://www.smartertravel.com/uploads/2017/03/tip-hotel-housekeeping-shutterstock-1400x500.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+  height: 100px;
+  border: 5px solid white;
+}*/
+
+.table {
+  background-image: url("Images/booking room.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  margin: 0;
+  width: auto;
+  height: auto;
+  }
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  text-align: center;
+  font-weight: inherit;
+
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#customers td, #customers th {
+  border: 2px solid black;
+  padding: 12px;
+}
+
+/*#customers tr:nth-child(even){background-color: white;}
+#customers tr:nth-child(odd){background-color: white;}*/
+
+#customers tr:hover {background-color: #FAEBD7;}
+
+#customers th {
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #6495ED;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+
+button:hover {background-color: #B0C4DE;}
+
+.pagination {
+  display: inline-block;
+  margin-left: 500px ;
+
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #6495ED;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #6495ED;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+
+.images1 img { 
+  padding: 1px; 
+  /*border: 3px dashed black;
+  background-color: white;*/
+  margin-right: 10px; 
+  margin-bottom: 10px;
+}
+
+.images {
+  text-align: center;
+  font-weight: inherit;
+  /*border:5px dashed black;
+  background-color: white;*/
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}

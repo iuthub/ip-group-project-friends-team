@@ -33,13 +33,7 @@
            <li><a href="/book">BOOKING ROOMS</a></li>
            <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
            <li><a href="/service">SERVICES</a></li>
-           <li class="dropdown">
-             <a href="javascript:void(0)" class="dropbtn">ABOUT & GALLARY</a>
-               <div class="dropdown-content">
-                   <a href="#">PHOTOS</a>
-                   <a href="#">VIDEOS</a>
-               </div>
-           </li>
+           <li><a href="/about">ABOUT</a></li>
            <li><a href="/contact">CONTACT US</a></li>
          </ul>
      </header>
@@ -114,20 +108,20 @@
            <div class="footer-section about">
              <h2>About us</h2>
              <p>
-The Friends Hotel covers a wide range of amenities <br>and has been serving everyone for years.There 
+The Friends Hotel covers a wide range of amenities <br>and has been serving everyone for years.There
 <br>are also many celebrities staying at this hotel.<br> For example, Akhmedov Dilkhayot also used <br>the services of this hotel</p>
            </div>
 
            <div class="footer-section links">
              <h2>Quick links</h2>
              <br>
-             
+
                <a href=""><li>Parking</li></a>
                <a href=""><li>Hotels</li></a>
                <a href=""><li>Members</li></a>
                <a href=""><li>Gift Cards</li></a>
                <a href=""><li>FAQ</li></a>
-             
+
            </div>
 
            <div class="footer-section content">

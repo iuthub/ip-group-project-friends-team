@@ -32,17 +32,11 @@
            <li><a href="/book">BOOKING ROOMS</a></li>
            <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
            <li><a href="/service">SERVICES</a></li>
-           <li class="dropdown">
-             <a href="javascript:void(0)" class="dropbtn">ABOUT & GALLARY</a>
-               <div class="dropdown-content">
-                   <a href="#">PHOTOS</a>
-                   <a href="#">VIDEOS</a>      
-               </div>
-           </li>
+           <li><a href="/about">ABOUT</a></li>
            <li><a href="/contact">CONTACT US</a></li>
          </ul>
      </header>
-     
+
 <div class="table">
 	<table id="customers">
 	  <tr>
@@ -57,9 +51,9 @@
 	  	<td>First</td>
 	    <td>Room 21</td>
 	    <td>1 bed</td>
-	    <td> Free fast wi-fi, 4K TV screens, Air condition, 
-	    	<br>Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 4K TV screens, Air condition,
+	    	<br>Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>100$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -68,9 +62,9 @@
 	  	<td>First</td>
 	    <td>Room 22</td>
 	    <td>1 bed</td>
-	    <td> Free fast wi-fi, 4K TV screens, Air condition, 
-	    	<br>Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 4K TV screens, Air condition,
+	    	<br>Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>100$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -79,9 +73,9 @@
 	  	<td>First</td>
 	    <td>Room 23</td>
 	    <td>1 bed</td>
-	    <td> Free fast wi-fi, 4K TV screens, Air condition, 
-	    	<br>Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 4K TV screens, Air condition,
+	    	<br>Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>100$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -90,9 +84,9 @@
 	  	<td>First</td>
 	    <td>Room 24</td>
         <td>2 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 2-4K TV screens, 2-Air condition, 
-	    	<br>Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 2-4K TV screens, 2-Air condition,
+	    	<br>Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>180$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -101,9 +95,9 @@
 	  	<td>First</td>
 	    <td>Room 25</td>
 	    <td>2 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 2-4K TV screens, 2-Air condition, 
-	    	<br>Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 2-4K TV screens, 2-Air condition,
+	    	<br>Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>180$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -112,9 +106,9 @@
 	  	<td>First</td>
 	    <td>Room 26</td>
 	    <td>2 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 2-4K TV screens, 2-Air condition, 
-	    	<br>Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 2-4K TV screens, 2-Air condition,
+	    	<br>Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>180$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -123,9 +117,9 @@
 	  	<td>First</td>
 	    <td>Room 27</td>
 	    <td>3 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 3-4K TV screens, 3-Air condition, 
-	    	<br>2-Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 3-4K TV screens, 3-Air condition,
+	    	<br>2-Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>300$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -134,9 +128,9 @@
 	  	<td>First</td>
 	    <td>Room 28</td>
 	    <td>3 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 3-4K TV screens, 3-Air condition, 
-	    	<br>2-Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 3-4K TV screens, 3-Air condition,
+	    	<br>2-Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>300$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -145,9 +139,9 @@
 	  	<td>First</td>
 	    <td>Room 29</td>
 	    <td>4 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 4-4K TV screens, 4-Air condition, 
-	    	<br>2-Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 4-4K TV screens, 4-Air condition,
+	    	<br>2-Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>450$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -156,9 +150,9 @@
 	  	<td>First</td>
 	    <td>Room 30</td>
 	    <td>4 beds <br>(seperate)</td>
-	    <td> Free fast wi-fi, 4-4K TV screens, 4-Air condition, 
-	    	<br>2-Telephone, daily newspaper, 3-times lunch, 
-	    	<br>Free pool and gym access, Floor sensor lights, 
+	    <td> Free fast wi-fi, 4-4K TV screens, 4-Air condition,
+	    	<br>2-Telephone, daily newspaper, 3-times lunch,
+	    	<br>Free pool and gym access, Floor sensor lights,
 	    	<br>Inductive charging, Bluetooth furniture</td>
 	    <td>450$/per night</td>
 	    <td><button type="button"><a href="">Book Now</a></button></td>
@@ -177,30 +171,30 @@
 	<div class="images">
 		<div class="images1">
 			<h1> First Class Images:</h1>
-				<img src="images/Bedroom first 1 (1).jpg" width="250" height="250">
-				<img src="images/Bedroom first 1 (2).jpg" width="250" height="250">
-				<img src="images/Bedroom first 1 (3).jpg" width="250" height="250">
-				<img src="images/Bedroom first 2 (1).jpg" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 1 (1).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 1 (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 1 (3).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 2 (1).jpg') }}" width="250" height="250">
 				<br>
-				<img src="images/Bedroom first 2 (2).jpg" width="250" height="250">
-				<img src="images/Bedroom first 2 (3).jpg" width="250" height="250">
-				<img src="images/Bedroom first 4 (1).jpg" width="250" height="250">
-				<img src="images/Bathroom first (1).jpg" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 2 (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 2 (3).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom first 4 (1).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom first (1).jpg') }}" width="250" height="250">
 				<br>
-				<img src="images/Bathroom first (2).jpg" width="250" height="250">
-				<img src="images/Bathroom first (3).jpg" width="250" height="250">
-				<img src="images/Bathroom first (5).jpg" width="250" height="250">
-				<img src="images/Hall first 1 (1).jpg" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom first (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom first (3).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom first (5).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 1 (1).jpg') }}" width="250" height="250">
 				<br>
-				<img src="images/Hall first 2 (1).jpg" width="250" height="250">
-				<img src="images/Hall first 2 (2).jpg" width="250" height="250">
-				<img src="images/Hall first 2 (3).jpg" width="250" height="250">
-				<img src="images/Hall first 3 (1).jpg" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 2 (1).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 2 (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 2 (3).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 3 (1).jpg') }}" width="250" height="250">
 				<br>
-				<img src="images/Hall first 3 (2).jpg" width="250" height="250">
-				<img src="images/Hall first 3 (3).jpg" width="250" height="250">
-				<img src="images/Hall first 4 (2).jpg" width="250" height="250">
-				<img src="images/Hall first 4 (3).jpg" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 3 (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 3 (3).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 4 (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Hall first 4 (3).jpg') }}" width="250" height="250">
 		</div>
 	</div>
    <div class="footer">
@@ -208,20 +202,20 @@
            <div class="footer-section about">
              <h2>About us</h2>
              <p>
-The Friends Hotel covers a wide range of amenities <br>and has been serving everyone for years.There 
+The Friends Hotel covers a wide range of amenities <br>and has been serving everyone for years.There
 <br>are also many celebrities staying at this hotel.<br> For example, Akhmedov Dilkhayot also used <br>the services of this hotel</p>
            </div>
 
            <div class="footer-section links">
              <h2>Quick links</h2>
              <br>
-             
+
                <a href=""><li>Parking</li></a>
                <a href=""><li>Hotels</li></a>
                <a href=""><li>Members</li></a>
                <a href=""><li>Gift Cards</li></a>
                <a href=""><li>FAQ</li></a>
-             
+
            </div>
 
            <div class="footer-section content">
@@ -256,5 +250,5 @@ The Friends Hotel covers a wide range of amenities <br>and has been serving ever
         </div>
 </div>
   </div>
-</body> 
+</body>
 </html>

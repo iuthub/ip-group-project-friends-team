@@ -28,13 +28,7 @@
        <li><a href="/book">BOOKING ROOMS</a></li>
        <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
        <li><a href="/service">SERVICES</a></li>
-       <li class="dropdown">
-         <a href="javascript:void(0)" class="dropbtn">ABOUT & GALLARY</a>
-           <div class="dropdown-content">
-               <a href="#">PHOTOS</a>
-               <a href="#">VIDEOS</a>      
-           </div>
-       </li>
+       <li><a href="/about">ABOUT</a></li>
        <li><a href="/contact">CONTACT US</a></li>
      </ul>
  </header>
@@ -76,7 +70,7 @@
     <div class="row">
       <div class="column" style="background-color:#77a6d4;">
             <h2>Our contacts:</h2>
-          
+
         <p sdf="sdf">
           <table>
 

@@ -29,13 +29,7 @@
            <li><a href="/book">BOOKING ROOMS</a></li>
            <li><a href="/bar">RESTAURANT & BARS & BANQUETS</a></li>
            <li><a href="/service">SERVICES</a></li>
-           <li class="dropdown">
-             <a href="javascript:void(0)" class="dropbtn">ABOUT & GALLARY</a>
-               <div class="dropdown-content">
-                   <a href="#">PHOTOS</a>
-                   <a href="#">VIDEOS</a>      
-               </div>
-           </li>
+           <li><a href="/about">ABOUT</a></li>
            <li><a href="/contact">CONTACT US</a></li>
          </ul>
      </header>
@@ -144,13 +138,13 @@
 	<div class="images">
 		<div class="images1">
 			<h1> Economy Class Images:</h1>
-				<img src="images/Bedroom econ 1 (1).jpg" width="250" height="250">
-				<img src="images/Bedroom econ 1 (2).jpg" width="250" height="250">
-				<img src="images/Bedroom econ 1 (3).jpg" width="250" height="250">
+				<img src="{{ asset('Images/bedecon1.jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom econ 1 (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bedroom econ 1 (3).jpg') }}" width="250" height="250">
 				<br>
-				<img src="images/Bathroom econ (1).jpg" width="250" height="250">
-				<img src="images/Bathroom econ (2).jpg" width="250" height="250">
-				<img src="images/Bathroom econ (3).jpg" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom econ (1).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom econ (2).jpg') }}" width="250" height="250">
+				<img src="{{ asset('Images/Bathroom econ (3).jpg') }}" width="250" height="250">
 		</div>
 	</div>
    <div class="footer">
@@ -158,20 +152,20 @@
            <div class="footer-section about">
              <h2>About us</h2>
              <p>
-The Friends Hotel covers a wide range of amenities <br>and has been serving everyone for years.There 
+The Friends Hotel covers a wide range of amenities <br>and has been serving everyone for years.There
 <br>are also many celebrities staying at this hotel.<br> For example, Akhmedov Dilkhayot also used <br>the services of this hotel</p>
            </div>
 
            <div class="footer-section links">
              <h2>Quick links</h2>
              <br>
-             
+
                <a href=""><li>Parking</li></a>
                <a href=""><li>Hotels</li></a>
                <a href=""><li>Members</li></a>
                <a href=""><li>Gift Cards</li></a>
                <a href=""><li>FAQ</li></a>
-             
+
            </div>
 
            <div class="footer-section content">

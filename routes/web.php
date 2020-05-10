@@ -28,4 +28,10 @@ Route::get('/contact', 'BarController@contact');
 Route::get('/index', 'BarController@index')->name('bar_index');
 Route::post('/store', 'BarController@store')->name('bar_store');
 
+
 Route::get('/service', 'BarController@service');
+
+Route::get('/book', 'HomeController@book');
+Route::get('/book1', 'HomeController@book1');
+Route::get('/book2', 'HomeController@book2');
+

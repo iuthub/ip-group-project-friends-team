@@ -3,7 +3,7 @@
 */
 
 body {
-    background: url('../images/space-background.jpg');
+    background-image: url("{{ asset('/public/img/space-background.jpg') }}");
     font-family: 'Open Sans', arial, sans-serif;
     /* Full Page Background Receipe */
     background-size: cover;

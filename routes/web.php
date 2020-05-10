@@ -20,3 +20,10 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/contact', 'HomeController@contact');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/bar', 'BarController@bar');
+Route::get('/menu', 'BarController@menu');
+Route::get('/blog', 'BarController@blog');
+Route::get('/contact', 'BarController@contact');
+
+Route::get('/index', 'BarController@index')->name('bar_index');
+Route::post('/store', 'BarController@store')->name('bar_store');
